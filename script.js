@@ -3,7 +3,7 @@ console.log("Thanks to Official Joke API");
 const jokeElement = document.getElementById("jokeElement");
 const favJokeDisplay = document.getElementById("favJokeDisplay");
 
-let favJokes = JSON.parse(localStorage.getItem("favJokes"));
+let favJokes = JSON.parse(localStorage.getItem("favJokes")) || [];
 
 favJokeDisplay.textContent = favJokes.join(" || ");
 
