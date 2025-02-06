@@ -1,5 +1,10 @@
 console.log("Thanks to Official Joke API");
 
+if (!localStorage.getItem("favJokes")) {
+    localStorage.setItem("favJokes", JSON.stringify([]));
+}
+let favJokes = JSON.parse(localStorage.getItem("favJokes"));
+
 const jokeElement = document.getElementById("jokeElement");
 const favJokeDisplay = document.getElementById("favJokeDisplay");
 
