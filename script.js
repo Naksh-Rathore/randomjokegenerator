@@ -8,8 +8,6 @@ let favJokes = JSON.parse(localStorage.getItem("favJokes"));
 const jokeElement = document.getElementById("jokeElement");
 const favJokeDisplay = document.getElementById("favJokeDisplay");
 
-let favJokes = JSON.parse(localStorage.getItem("favJokes")) || [];
-
 favJokeDisplay.textContent = favJokes.join(" || ");
 
 async function getJoke() {
