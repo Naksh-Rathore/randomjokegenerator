@@ -36,7 +36,7 @@ async function generateJoke() {
 }
 
 function favJoke() {
-        if(!favJokes.includes(jokeElement.textContent)) {
+        if(!favJokes.includes(jokeElement.textContent) && jokeElement.textContent !== "") {
             
             favJokes.push(jokeElement.textContent);
             favJokeDisplay.textContent = favJokes.join(" || ");
