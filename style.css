@@ -9,9 +9,9 @@ body {
     font-weight: bold;
     font-size: 14px;
     margin-top: 75px;
-    margin-left: 75px;
+    margin-left: 340px;
     border-radius: 10px;
-    width: 75%;
+    width: 50%;
 }
 
 button {
@@ -33,7 +33,6 @@ button:active {
 
 #displayDiv {
     margin-top: 25px;
-    border: 3px solid black;
     border-radius: 10px;
 }
 
@@ -41,4 +40,6 @@ button:active {
     font-size: 20px;
     text-align: left;
     height: 150px;
+    width: 50%;
+    margin-left: 370px;
 }
