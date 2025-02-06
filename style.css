@@ -1,0 +1,44 @@
+body {
+    text-align: center;
+    font-family: sans-serif;
+}
+
+#mainDiv {
+    border: 3px solid;
+    padding: 35px 20px;
+    font-weight: bold;
+    font-size: 14px;
+    margin-top: 75px;
+    margin-left: 75px;
+    border-radius: 10px;
+    width: 75%;
+}
+
+button {
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: hsl(210, 100%, 50%);
+    color: white;
+    border: none;
+    padding: 10px;
+}
+
+button:hover {
+    background-color: hsl(210, 100%, 57%);
+}
+
+button:active {
+    background-color: hsl(210, 100%, 64%);
+}
+
+#displayDiv {
+    margin-top: 25px;
+    border: 3px solid black;
+    border-radius: 10px;
+}
+
+#favJokeDisplay {
+    font-size: 20px;
+    text-align: left;
+    height: 150px;
+}
